@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Campus Parcel Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="index.html">
+          <img class="lpu-logo" src="lpu-logo.jpg" alt="Lovely Professional University logo">
+          <span class="brand-text"><strong>Campus Parcel Hub</strong><small>Campus parcel desk</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="parcels.html">Manage Parcels</a>
+          <a href="lookup.html">Student Lookup</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </div>
+    </header>
+  <main class="container page-content">
+    <section class="home-intro">
+      <p class="eyebrow">LOVELY PROFESSIONAL UNIVERSITY · STUDENT SERVICES</p>
+      <h1>Campus parcels, kept organised</h1>
+      <p>Campus Parcel Hub helps the parcel desk record deliveries and follow each parcel until a student collects it.</p>
+      <div class="button-row">
+        <a class="button" href="parcels.html">Manage parcels</a>
+        <a class="button button-secondary" href="lookup.html">Look up a parcel</a>
+      </div>
+    </section>
+
+    <section class="summary-grid" aria-label="Parcel summary">
+      <article class="summary-card">
+        <p>Total parcels</p>
+        <strong id="total-count">0</strong>
+      </article>
+      <article class="summary-card">
+        <p>Ready to collect</p>
+        <strong id="ready-count">0</strong>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>How it works</h2>
+      <div class="steps-grid">
+        <article class="step">
+          <span>1</span>
+          <div><h3>Add a parcel</h3><p>Enter the student's name, ID, and hostel or block.</p></div>
+        </article>
+        <article class="step">
+          <span>2</span>
+          <div><h3>Update its status</h3><p>Move it from the desk to the campus courier and collection.</p></div>
+        </article>
+        <article class="step">
+          <span>3</span>
+          <div><h3>Check a parcel</h3><p>Students can search for their parcels with their student ID.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <p class="note">This is a classroom demo. Example parcel details are stored in this browser.</p>
+  </main>
+    <footer class="site-footer">
+      <div class="container">Campus Parcel Hub · LPU classroom project demo</div>
+    </footer>
+</body>
+</html>
